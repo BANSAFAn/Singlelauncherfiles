@@ -1,0 +1,30 @@
+/*    */ package org.tlauncher.tlauncher.entity.hot;
+/*    */ 
+/*    */ public class AdditionalHotServer extends ServerInfo {
+/*    */   private String shortDescription;
+/*    */   private String addDescription;
+/*    */   private String versionDescription;
+/*    */   private String tMonitoringLink;
+/*    */   private BufferedImage image;
+/*    */   
+/* 10 */   public void setShortDescription(String shortDescription) { this.shortDescription = shortDescription; } public void setAddDescription(String addDescription) { this.addDescription = addDescription; } public void setVersionDescription(String versionDescription) { this.versionDescription = versionDescription; } public void setTMonitoringLink(String tMonitoringLink) { this.tMonitoringLink = tMonitoringLink; } public void setImage(BufferedImage image) { this.image = image; } public void setOnline(Integer online) { this.online = online; } public void setMax(Integer max) { this.max = max; } public void setUpdated(Date updated) { this.updated = updated; } public void setImageNumber(Integer imageNumber) { this.imageNumber = imageNumber; } public void setActive(boolean active) { this.active = active; } public boolean equals(Object o) { if (o == this) return true;  if (!(o instanceof AdditionalHotServer)) return false;  AdditionalHotServer other = (AdditionalHotServer)o; if (!other.canEqual(this)) return false;  Object this$shortDescription = getShortDescription(), other$shortDescription = other.getShortDescription(); if ((this$shortDescription == null) ? (other$shortDescription != null) : !this$shortDescription.equals(other$shortDescription)) return false;  Object this$addDescription = getAddDescription(), other$addDescription = other.getAddDescription(); if ((this$addDescription == null) ? (other$addDescription != null) : !this$addDescription.equals(other$addDescription)) return false;  Object this$versionDescription = getVersionDescription(), other$versionDescription = other.getVersionDescription(); if ((this$versionDescription == null) ? (other$versionDescription != null) : !this$versionDescription.equals(other$versionDescription)) return false;  Object this$tMonitoringLink = getTMonitoringLink(), other$tMonitoringLink = other.getTMonitoringLink(); if ((this$tMonitoringLink == null) ? (other$tMonitoringLink != null) : !this$tMonitoringLink.equals(other$tMonitoringLink)) return false;  Object this$image = getImage(), other$image = other.getImage(); if ((this$image == null) ? (other$image != null) : !this$image.equals(other$image)) return false;  Object this$online = getOnline(), other$online = other.getOnline(); if ((this$online == null) ? (other$online != null) : !this$online.equals(other$online)) return false;  Object this$max = getMax(), other$max = other.getMax(); if ((this$max == null) ? (other$max != null) : !this$max.equals(other$max)) return false;  Object this$updated = getUpdated(), other$updated = other.getUpdated(); if ((this$updated == null) ? (other$updated != null) : !this$updated.equals(other$updated)) return false;  Object this$imageNumber = getImageNumber(), other$imageNumber = other.getImageNumber(); return ((this$imageNumber == null) ? (other$imageNumber != null) : !this$imageNumber.equals(other$imageNumber)) ? false : (!(isActive() != other.isActive())); } protected boolean canEqual(Object other) { return other instanceof AdditionalHotServer; } public int hashCode() { int PRIME = 59; result = 1; Object $shortDescription = getShortDescription(); result = result * 59 + (($shortDescription == null) ? 43 : $shortDescription.hashCode()); Object $addDescription = getAddDescription(); result = result * 59 + (($addDescription == null) ? 43 : $addDescription.hashCode()); Object $versionDescription = getVersionDescription(); result = result * 59 + (($versionDescription == null) ? 43 : $versionDescription.hashCode()); Object $tMonitoringLink = getTMonitoringLink(); result = result * 59 + (($tMonitoringLink == null) ? 43 : $tMonitoringLink.hashCode()); Object $image = getImage(); result = result * 59 + (($image == null) ? 43 : $image.hashCode()); Object $online = getOnline(); result = result * 59 + (($online == null) ? 43 : $online.hashCode()); Object $max = getMax(); result = result * 59 + (($max == null) ? 43 : $max.hashCode()); Object $updated = getUpdated(); result = result * 59 + (($updated == null) ? 43 : $updated.hashCode()); Object $imageNumber = getImageNumber(); result = result * 59 + (($imageNumber == null) ? 43 : $imageNumber.hashCode()); return result * 59 + (isActive() ? 79 : 97); } public String toString() {
+/* 11 */     return "AdditionalHotServer(super=" + super.toString() + ", shortDescription=" + getShortDescription() + ", addDescription=" + getAddDescription() + ", versionDescription=" + getVersionDescription() + ", tMonitoringLink=" + getTMonitoringLink() + ", image=" + getImage() + ", online=" + getOnline() + ", max=" + getMax() + ", updated=" + getUpdated() + ", imageNumber=" + getImageNumber() + ", active=" + isActive() + ")";
+/*    */   }
+/* 13 */   public String getShortDescription() { return this.shortDescription; }
+/* 14 */   public String getAddDescription() { return this.addDescription; }
+/* 15 */   public String getVersionDescription() { return this.versionDescription; }
+/* 16 */   public String getTMonitoringLink() { return this.tMonitoringLink; } public BufferedImage getImage() {
+/* 17 */     return this.image;
+/* 18 */   } private Integer online = Integer.valueOf(-1); public Integer getOnline() { return this.online; }
+/* 19 */    private Date updated; private Integer imageNumber; private Integer max = Integer.valueOf(-1); private boolean active; public Integer getMax() { return this.max; }
+/* 20 */   public Date getUpdated() { return this.updated; }
+/* 21 */   public Integer getImageNumber() { return this.imageNumber; } public boolean isActive() {
+/* 22 */     return this.active;
+/*    */   }
+/*    */ }
+
+
+/* Location:              C:\Users\vovas\Downloads\TLauncher-2.885.jar!\org\tlauncher\tlauncher\entity\hot\AdditionalHotServer.class
+ * Java compiler version: 8 (52.0)
+ * JD-Core Version:       1.1.3
+ */

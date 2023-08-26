@@ -1,0 +1,10 @@
+{
+	"argument": "-Dlog4j.configurationFile=${path}",
+	"file": {
+		"id": "client-1.7.xml",
+		"sha1": "14fedd49897b3f6160975bdf3a53e1e7eab71d29",
+		"size": 962,
+		"url": "https://launcher.mojang.com/v1/objects/14fedd49897b3f6160975bdf3a53e1e7eab71d29/client-1.7.xml"
+	},
+	"type": "log4j2-xml"
+}

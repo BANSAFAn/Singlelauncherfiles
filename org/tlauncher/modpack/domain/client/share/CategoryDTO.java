@@ -1,0 +1,15 @@
+/*   */ package org.tlauncher.modpack.domain.client.share;
+/*   */ 
+/*   */ public class CategoryDTO {
+/*   */   private Long id;
+/*   */   private String name;
+/*   */   
+/* 7 */   public Long getId() { return this.id; } private String shortName; private int nesting; private List<CategoryDTO> subCategories; public String getName() { return this.name; } public String getShortName() { return this.shortName; } public int getNesting() { return this.nesting; } public List<CategoryDTO> getSubCategories() { return this.subCategories; } public void setId(Long id) { this.id = id; } public void setName(String name) { this.name = name; } public void setShortName(String shortName) { this.shortName = shortName; } public void setNesting(int nesting) { this.nesting = nesting; } public void setSubCategories(List<CategoryDTO> subCategories) { this.subCategories = subCategories; } public boolean equals(Object o) { if (o == this) return true;  if (!(o instanceof CategoryDTO)) return false;  CategoryDTO other = (CategoryDTO)o; if (!other.canEqual(this)) return false;  if (getNesting() != other.getNesting()) return false;  Object this$id = getId(), other$id = other.getId(); if ((this$id == null) ? (other$id != null) : !this$id.equals(other$id)) return false;  Object this$name = getName(), other$name = other.getName(); if ((this$name == null) ? (other$name != null) : !this$name.equals(other$name)) return false;  Object this$shortName = getShortName(), other$shortName = other.getShortName(); if ((this$shortName == null) ? (other$shortName != null) : !this$shortName.equals(other$shortName)) return false;  Object<CategoryDTO> this$subCategories = (Object<CategoryDTO>)getSubCategories(), other$subCategories = (Object<CategoryDTO>)other.getSubCategories(); return !((this$subCategories == null) ? (other$subCategories != null) : !this$subCategories.equals(other$subCategories)); } protected boolean canEqual(Object other) { return other instanceof CategoryDTO; } public int hashCode() { int PRIME = 59; result = 1; result = result * 59 + getNesting(); Object $id = getId(); result = result * 59 + (($id == null) ? 43 : $id.hashCode()); Object $name = getName(); result = result * 59 + (($name == null) ? 43 : $name.hashCode()); Object $shortName = getShortName(); result = result * 59 + (($shortName == null) ? 43 : $shortName.hashCode()); Object<CategoryDTO> $subCategories = (Object<CategoryDTO>)getSubCategories(); return result * 59 + (($subCategories == null) ? 43 : $subCategories.hashCode()); } public String toString() { return "CategoryDTO(id=" + getId() + ", name=" + getName() + ", shortName=" + getShortName() + ", nesting=" + getNesting() + ", subCategories=" + getSubCategories() + ")"; }
+/*   */ 
+/*   */ }
+
+
+/* Location:              C:\Users\vovas\Downloads\TLauncher-2.885.jar!\org\tlauncher\modpack\domain\client\share\CategoryDTO.class
+ * Java compiler version: 8 (52.0)
+ * JD-Core Version:       1.1.3
+ */

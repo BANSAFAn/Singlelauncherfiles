@@ -1,0 +1,70 @@
+{
+  "config": {
+    "LINUX": {
+      "x64": {
+        "originalJVM": "true",
+        "javaFolder": "jre1.8.0_281",
+        "_comment": "File from the official site of Oracle. Check the hash (SHA), it's the same. Link: https://www.oracle.com/in/java/technologies/javase/javase8u211-later-archive-downloads.html", 
+        "url": [
+          "http://res.tlauncher.org/b/client/jre/linux/jre-8u281-linux-x64.tar.gz",
+          "http://res.tlauncher.org/unb/client/jre/linux/jre-8u281-linux-x64.tar.gz",
+          "https://securerepository.net/update/downloads/jre/linux/jre-8u281-linux-x64.tar.gz"
+        ],
+        "shaCode": "c2d8c9e31520fc7eb1452d6ec36fcb051daceb5c",
+        "storagePath": "jre-8u281-linux-x64.tar.gz"
+      },
+      "x32": {
+        "originalJVM": "true",
+        "javaFolder": "jre1.8.0_281",
+        "_comment": "File from the official site of Oracle. Check the hash (SHA), it's the same. Link: https://www.oracle.com/in/java/technologies/javase/javase8u211-later-archive-downloads.html",
+        "url": [
+          "http://res.tlauncher.org/b/client/jre/linux/jre-8u281-linux-i586.tar.gz",
+          "http://res.tlauncher.org/unb/client/jre/linux/jre-8u281-linux-i586.tar.gz",
+          "https://securerepository.net/update/downloads/jre/linux/jre-8u281-linux-i586.tar.gz"
+        ],
+        "shaCode": "ead85a9120e679acffea3d5964bdbcc032abfb29",
+        "storagePath": "jre-8u281-linux-i586.tar.gz"
+      }
+    },
+    "OSX": {
+      "x64": {
+        "javaFolder": "jre1.8.0_321.jre",
+        "_comment": "The macos version is not available on the official site in the archive, only the installer. Repackaged zip version from dmg. Link: https://www.oracle.com/in/java/technologies/javase/javase8u211-later-archive-downloads.html",
+        "url": [
+          "http://res.tlauncher.org/b/client/jre/mac/jre1.8.0_321.jre.zip",
+          "http://res.tlauncher.org/unb/client/jre/mac/jre1.8.0_321.jre.zip",
+          "https://securerepository.net/update/downloads/jre/mac/jre1.8.0_321.jre.zip"
+          
+        ],
+        "shaCode": "f1fe11c071adff4c16737649e245aad61245c5f3",
+        "storagePath": "jre1.8.0_321.jre.zip"
+      }
+    },
+    "WINDOWS": {
+      "x64": {
+	    "originalJVM": "true",
+        "javaFolder": "jre1.8.0_281",
+        "_comment": "File from the official site of Oracle. Check the hash (SHA), it's the same. Link: https://www.oracle.com/in/java/technologies/javase/javase8u211-later-archive-downloads.html",
+        "url": [
+		"http://res.tlauncher.org/b/client/jre/windows/jre-8u281-windows-x64.tar.gz",
+		"http://res.tlauncher.org/unb/client/jre/windows/jre-8u281-windows-x64.tar.gz",
+		"https://securerepository.net/update/downloads/jre/windows/jre-8u281-windows-x64.tar.gz"
+        ],
+        "shaCode": "c77455fb17472ba547db49e146d3047c81519fce",
+        "storagePath": "jre-8u281-windows-x64.tar.gz"
+      },
+      "x32": {
+      	"originalJVM": "true",
+        "javaFolder": "jre1.8.0_111",
+        "_comment": "File from the official site of Oracle. Check the hash (SHA), it's the same. Link: https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html",
+        "url": [
+          "http://res.tlauncher.org/b/client/jre/windows/jre-8u111-windows-i586.tar.gz",
+          "http://res.tlauncher.org/unb/client/jre/windows/jre-8u111-windows-i586.tar.gz",
+          "https://securerepository.net/update/downloads/jre/windows/jre-8u111-windows-i586.tar.gz"
+        ],
+        "shaCode": "7b4ea1a30bad0d8d89bca5fcf7658ccc305936a9",
+        "storagePath": "jre-8u111-windows-i586.tar.gz"
+      }
+    }
+  }
+}
